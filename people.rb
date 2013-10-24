@@ -23,5 +23,6 @@ chris.teach
 cristina = Student.new("Cristina")
 cristina.learn
 
-cristina.teach  #the method "teach" is undefined because it is a method in Instructor; christina is a Student and can only access methods there. 
+cristina.teach  
+#the method "teach" is undefined because it is a method in the Instructor subclass of Person; christStudent and can only access methods there. 
 
