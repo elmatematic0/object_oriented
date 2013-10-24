@@ -19,6 +19,9 @@ class Instructor<Person
 end
 
 chris = Instructor.new("Chris")
-puts chris
+chris.teach
 cristina = Student.new("Cristina")
-puts cristina
+cristina.learn
+
+cristina.teach  #the method "teach" is undefined because it is a method in Instructor; christina is a Student and can only access methods there. 
+
