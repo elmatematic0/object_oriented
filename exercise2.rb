@@ -8,8 +8,7 @@ class Product
     @name = name
     @price = price 
     @status = "n"
-    @groupnum = 0
-    
+       
   end
   
   def tax_rate
@@ -19,10 +18,7 @@ class Product
   def import_rate
     0.05
   end
-  
-  # def group
-  #   if @groupnum == 1
-  #     puts 
+
 
   def sales_tax
      if @status == "s"                                           #sales tax only
